@@ -1,0 +1,14 @@
+fun main() {
+     var myAge: Int = 24
+    println(myAge)
+    var averageAge: Double = 30.0
+    println(averageAge)
+   var testNumber = 36
+    var evenOdd = testNumber % 2
+    println(evenOdd) 
+    if (evenOdd == 1) println(true)
+     if (evenOdd == 0) println(false)
+     var answer = 0 
+    println((((answer + 1) + 10)*10) * 1000)
+     
+}
