@@ -11,10 +11,8 @@ fun main() {
     print("Enter the third name: ")
     val name3 = reader.nextLine()
 
-    // put names in a list and sort them
     val names = listOf(name1, name2, name3).sorted()
 
-    // print the sorted names
     for (name in names) {
         println(name)
     }
