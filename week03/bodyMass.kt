@@ -1,12 +1,11 @@
 emmanuel ej carter
 fun main() {
-    val reader = Scanner(System.`in`)
 
     print("Enter your weight in pounds: ")
-    val weight = reader.nextDouble()
+    val weight = readLine()?.toDoubleOrNull()
 
     print("Enter your height in inches: ")
-    val height = reader.nextDouble()
+    val height = readLine()?.toDoubleOrNull()
 
     val bmi = weight * 703 / (height * height)
 
