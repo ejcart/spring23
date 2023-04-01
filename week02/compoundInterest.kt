@@ -16,10 +16,3 @@ fun main() {
     val total = amount.pow(x)
     println(total)
 }
-
-    
-  
-    
-    
-    
-}
