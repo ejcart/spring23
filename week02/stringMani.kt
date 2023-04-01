@@ -1,10 +1,9 @@
 //ej (emmanuel) Carter String manipulation 2/12
-import java.util.Scanner
 fun main() {
-    val reader = Scanner(System.`in`)
-    var city = readLine()
+    println("please enter a city name")
+    var city =readln()
     println(city.uppercase())
     println(city.lowercase())
-    Println(city.charAt())
-    
+    println(city.get(0))
+
 }
