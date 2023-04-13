@@ -2,7 +2,6 @@ emmanuel ej carter
 import kotlin.math.pow
 
 fun main() {
-    print("Please enter time in seconds")
 
 
 for(i in 0..10 ) {
