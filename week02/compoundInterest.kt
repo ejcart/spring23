@@ -9,10 +9,9 @@ fun main() {
     val numOfTimes = readln().toInt()
     println("number of years.")
     val time = readln().toDouble()
-    
-    val x = (numOfTimes * time)
-    val y = (rate * numOfTimes)
-    val amount = principal*(1+y)
-    val total = amount.pow(x)
+
+    val temp = (1+(rate/numOfTimes))
+    val subtotal = temp.pow(numOfTimes*time)
+    val total = principal*(subtotal)
     println(total)
 }
